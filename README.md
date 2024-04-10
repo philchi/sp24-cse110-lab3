@@ -1,4 +1,7 @@
 # Lab 2 - Starter
+
+<https://philchi.github.io/Lab2_Starter/>
+
 - [x] a title (e.g. "Pomodoro Timer First Brainstorm")
 - [x] subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
 - [x] subtitle for the date

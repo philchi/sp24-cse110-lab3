@@ -1,0 +1,116 @@
+.title {
+  color: rgb(255,0,0);
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  position: sticky;
+  top: 0;
+}
+
+#s_title {
+  color: #F000FF;
+  height: 3vh;
+  width: 50vw;
+  max-width: 1000px;
+  min-width: 100px;
+  position: relative;
+  top: 1rem; left: 50rem
+}
+
+h3, h2 {
+  color: green
+}
+
+ul > li {
+  margin: 2em;
+}
+
+p ~ ol {
+  color: red
+}
+
+div + button {
+  color: blue
+}
+
+p:has(+ p) {
+  color: purple
+}
+
+.section1 {
+  background-color: red;
+
+  p {
+    color: red;
+  }
+}
+
+* {
+  background: hsl(50, 100%, 80%)
+}
+
+a[href="https://www.google.com/search?q=charizard"] {
+  color: color(display-p3 1 0 0.8)
+}
+
+p {
+  color: color-mix(in lch, black, blue);
+}
+
+@property --color-var {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: blueviolet;
+}
+
+#two {
+  color: var(--color-var, blue)
+}
+
+button:hover {
+  color: hsl(50, 100%, 80%)
+}
+
+button:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
+
+.box1 {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.3cm;
+}
+
+.box2 {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1em;
+  border-style: solid;
+  border-color: black;
+  border-width: 1mm;
+  border-radius: 10px
+}
+
+.box-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px
+}
+
+.box-grid {
+  display: grid;
+  grid-column-start: 2;
+  grid-row: auto;
+  grid-column-end: 3;
+}
+
+@media (width <= 800px) {
+  .box1 {
+    background-color: rgb(47, 0, 255);
+  }
+}

@@ -52,11 +52,11 @@ p:has(+ p) {
 }
 
 a[href="https://www.google.com/search?q=charizard"] {
-  color: color(1 0 0.8)
+  color: color(display-p3 1 0 0.8)
 }
 
 p {
-  color: color-mix(lch, black, blue);
+  color: color-mix(in lch, plum 40%, blue);
 }
 
 @property --color-var {

@@ -1,6 +1,6 @@
-# Lab 2 - Starter
+# Lab 3 - Starter
 
-<https://philchi.github.io/Lab2_Starter/>
+<https://philchi.github.io/sp24-cse110-lab3/>
 
 - [x] a title (e.g. "Pomodoro Timer First Brainstorm")
 - [x] subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
